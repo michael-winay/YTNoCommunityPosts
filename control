@@ -1,0 +1,9 @@
+Package: com.cactusutils.ytnocommunityposts
+Name: YTNoCommunityPosts
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Disables Community Posts on YouTube
+Maintainer: Michael Winay
+Author: Michael Winay
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
