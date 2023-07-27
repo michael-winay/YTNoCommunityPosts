@@ -1,0 +1,4 @@
+// YTNoCommunityPosts Localization
+
+"HIDE_COMMUNITY_POSTS" = "Afficher les publications de l'onglet communauté";
+"HIDE_COMMUNITY_POSTS_DESC" = "Permet de voir les publications de l'onglet communauté dans l'application.";
