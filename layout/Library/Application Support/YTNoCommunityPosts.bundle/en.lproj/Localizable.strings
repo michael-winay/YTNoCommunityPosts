@@ -1,0 +1,4 @@
+// YTNoCommunityPosts Localization
+
+"HIDE_COMMUNITY_POSTS" = "Hide Community Posts";
+"HIDE_COMMUNITY_POSTS_DESC" = "Disables viewing community posts in the app.";
