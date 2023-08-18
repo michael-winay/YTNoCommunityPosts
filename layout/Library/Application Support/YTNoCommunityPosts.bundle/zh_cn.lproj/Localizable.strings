@@ -1,0 +1,4 @@
+// YTNoCommunityPosts Localization
+
+"HIDE_COMMUNITY_POSTS" = "隐藏社区帖子";
+"HIDE_COMMUNITY_POSTS_DESC" = "禁用在 App 中浏览社区帖子的功能。请注意，频道页中的“社区”栏目也将无法加载。";
