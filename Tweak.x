@@ -53,7 +53,7 @@ NSBundle *YTNoCommunityPostsBundle() {
         YTSettingsSectionItem *commpost = [[%c(YTSettingsSectionItem) alloc] initWithTitle:LOC(@"HIDE_COMMUNITY_POSTS") titleDescription:LOC(@"HIDE_COMMUNITY_POSTS_DESC")];
         commpost.hasSwitch = YES;
         commpost.switchVisible = YES;
-        commpost.on = ![[NSUserDefaults standardUserDefaults] boolForKey:@"hide_comm_posts"];
+        commpost.on = [[NSUserDefaults standardUserDefaults] boolForKey:@"hide_comm_posts"];
         commpost.switchBlock = ^BOOL (YTSettingsCell *cell, BOOL enabled) {
             [[NSUserDefaults standardUserDefaults] setBool:!enabled forKey:@"hide_comm_posts"];
             return YES;
