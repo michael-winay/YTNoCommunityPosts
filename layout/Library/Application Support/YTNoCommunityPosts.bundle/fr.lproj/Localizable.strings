@@ -1,4 +1,4 @@
-// YTNoCommunityPosts Localization
+// YTNoCommunityPosts French Localization
 
-"HIDE_COMMUNITY_POSTS" = "Afficher les publications de l'onglet communauté";
-"HIDE_COMMUNITY_POSTS_DESC" = "Permet de voir les publications de l'onglet communauté dans l'application.";
+"HIDE_COMMUNITY_POSTS" = "Masquer les publications de l'onglet Communauté";
+"HIDE_COMMUNITY_POSTS_DESC" = "Ne vous permettra pas de voir les publications de l'onglet Communauté dans l'application.";
