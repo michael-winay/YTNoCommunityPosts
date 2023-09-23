@@ -1,4 +1,4 @@
-// YTNoCommunityPosts Localization
+// YTNoCommunityPosts Turkish Localization
 
-"HIDE_COMMUNITY_POSTS" = "Topluluk Gönderilerini Göster";
-"HIDE_COMMUNITY_POSTS_DESC" = "Uygulamada topluluk gönderilerinin görüntülenmesini sağlar.";
+"HIDE_COMMUNITY_POSTS" = "Topluluk Gönderilerini Gizle";
+"HIDE_COMMUNITY_POSTS_DESC" = "Uygulamadaki topluluk gönderilerinin görüntülenmesine izin vermez.";
