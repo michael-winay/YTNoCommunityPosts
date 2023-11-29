@@ -55,7 +55,7 @@ NSBundle *YTNoCommunityPostsBundle() {
         commpost.switchVisible = YES;
         commpost.on = [[NSUserDefaults standardUserDefaults] boolForKey:@"hide_comm_posts"];
         commpost.switchBlock = ^BOOL (YTSettingsCell *cell, BOOL enabled) {
-            [[NSUserDefaults standardUserDefaults] setBool:!enabled forKey:@"hide_comm_posts"];
+            [[NSUserDefaults standardUserDefaults] setBool:enabled forKey:@"hide_comm_posts"];
             return YES;
         };
         [sectionItems addObject:commpost];
@@ -76,7 +76,7 @@ NSBundle *YTNoCommunityPostsBundle() {
         
         NSString *result = [[[[asCell node] accessibilityElements] valueForKey:@"description"] componentsJoinedByString:@""];
         
-        if ([result rangeOfString:@"id.ui.backstage.post"].location != NSNotFound) {
+        if ([result rangeOfString:@"id.ui.backstage.post"].location != NSNotFound || [result rangeOfString:@"id.ui.backstage.original_post"].location != NSNotFound) {
             [self deleteItemsAtIndexPaths:@[indexPath]];
         }
     }
