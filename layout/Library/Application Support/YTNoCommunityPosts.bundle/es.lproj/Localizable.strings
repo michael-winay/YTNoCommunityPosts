@@ -1,0 +1,4 @@
+// YTNoCommunityPosts Localization
+
+"HIDE_COMMUNITY_POSTS" = "Ocultar los mensajes de la comunidad";
+"HIDE_COMMUNITY_POSTS_DESC" = "Desactiva la visualización de las publicaciones de la comunidad en la aplicación.";
